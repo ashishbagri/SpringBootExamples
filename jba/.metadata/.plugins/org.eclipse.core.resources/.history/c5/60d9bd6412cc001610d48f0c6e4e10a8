@@ -1,0 +1,12 @@
+package in.codeangles.jba.entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Blog {
+
+	@id
+	@GeneratedValue
+	private int id;
+	private String name;
+}
